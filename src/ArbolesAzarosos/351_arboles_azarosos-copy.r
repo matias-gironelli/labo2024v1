@@ -11,14 +11,14 @@ require("rpart")
 
 # parmatros experimento
 PARAM <- list()
-PARAM$experimento <- 3512
+PARAM$experimento <- 3516
 
 # parameetros rpart
 PARAM$rpart_param <- list(
   "cp" = -1,
-  "minsplit" = 500,
-  "minbucket" = 50,
-  "maxdepth" = 4
+  "minsplit" = 2000,
+  "minbucket" = 100,
+  "maxdepth" = 10
 )
 
 # parametros  arbol
