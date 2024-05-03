@@ -27,7 +27,7 @@ envg$EXPENV$arch_sem <- "mis_semillas.txt"
 
 
 # default
-envg$EXPENV$gcloud$RAM <- 256
+envg$EXPENV$gcloud$RAM <- 512
 envg$EXPENV$gcloud$cCPU <- 8
 
 #------------------------------------------------------------------------------
